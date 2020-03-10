@@ -8,3 +8,4 @@ end
 
 
 require("updates.vanilla")
+require("updates.factorio_extended")
