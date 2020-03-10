@@ -1,0 +1,14 @@
+{
+    "name": "Chunk-Aligned",
+    "version": "0.1.0",
+    "title": "Chunk Aligned",
+    "author": "Adrien 'Larandar' DUDOUIT-EXPOSITO",
+    "contact": "adrien@dudouit.me",
+    "homepage": "{FACTORIO_MOD_PORTAL_HERE}",
+    "factorio_version": "0.18",
+    "dependencies": [
+        "base >= 0.18",
+        "? FactorioExtended-Plus-Power >= 0.4.2"
+    ],
+    "description": "This mod make it easier to align stuffs to the chunk grid."
+}
