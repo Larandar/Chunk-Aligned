@@ -8,7 +8,8 @@
             "type": "factoriomod",
             "request": "launch",
             "name": "Factorio Mod Debug",
-            "factorioPath": "c://Users/Larandar/Code/Factorio/bin/x64/factorio.exe"
+            "factorioPath": "c://Users/Larandar/Code/Factorio/bin/x64/factorio.exe",
+            "factorioArgs": ["--disable-audio", "--load-game", "c://Users/Larandar/Code/Factorio/saves/debug.zip"]
         }
     ]
 }
