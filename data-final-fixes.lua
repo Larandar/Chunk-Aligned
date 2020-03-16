@@ -9,3 +9,4 @@ end
 
 require("updates.vanilla")
 require("updates.factorio_extended")
+require("updates.lighted_poles_plus")

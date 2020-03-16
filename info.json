@@ -8,7 +8,8 @@
     "factorio_version": "0.18",
     "dependencies": [
         "base >= 0.18",
-        "? FactorioExtended-Plus-Power >= 0.4.2"
+        "? FactorioExtended-Plus-Power",
+        "? LightedPolesPlus"
     ],
     "description": "This mod make it easier to align stuffs to the chunk grid."
 }
