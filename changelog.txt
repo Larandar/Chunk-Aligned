@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2020-10-02
+  Features:
+    - New setting for how medium power poles behave
+  Changes:
+    - Default settings do no change medium poles anymore
+    - There is a deprecated setting for previously used values
+---------------------------------------------------------------------------------------------------
 Version: 0.2.0
 Date: 2020-03-16
   Changes:
