@@ -12,6 +12,11 @@ local function process_updates(updates)
     end
 end
 
+-- Define the insert_each function in table
+function table.insert_each(self, iterable)
+    for _, v in ipairs(iterable) do table.insert(self, v) end
+end
+
 local vanilla_updates = require("updates.vanilla")
 process_updates(vanilla_updates)
 

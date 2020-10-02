@@ -2,14 +2,6 @@
 local updates = {
     {
         type = "electric-pole",
-        name = "small-electric-pole",
-        prototypes = {maximum_wire_distance = 8.5}
-    }, {
-        name = "electric-pole",
-        type = "medium-electric-pole",
-        prototypes = {maximum_wire_distance = 16.5}
-    }, {
-        type = "electric-pole",
         name = "big-electric-pole",
         prototypes = {maximum_wire_distance = 32}
     }, {
@@ -27,4 +19,30 @@ local updates = {
     }
 }
 
+-- Add legacy power mediums
+if settings.startup['chunk-aligned-strategy'].value == "[DEPRECATED] Legacy" then
+    table.insert_each(updates, {
+        {
+            type = "electric-pole",
+            name = "small-electric-pole",
+            prototypes = {maximum_wire_distance = 8.5}
+        }, {
+            name = "electric-pole",
+            type = "medium-electric-pole",
+            prototypes = {maximum_wire_distance = 16.5}
+        }
+    })
+elseif settings.startup['chunk-aligned-strategy'].value == "Bigger Mediums" then
+    table.insert_each(updates, {
+        {
+            type = "electric-pole",
+            name = "medium-electric-pole",
+            prototypes = {
+                maximum_wire_distance = 10,
+                supply_area_distance = 4.5
+            }
+        }
+
+    })
+end
 return updates
