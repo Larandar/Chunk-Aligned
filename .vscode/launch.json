@@ -37,13 +37,13 @@
                 // Can't test it else
                 "Chunk-Aligned": true,
                 // Factorio Extended
-                "FactorioExtended-Plus-Core": true,
-                "FactorioExtended-Plus-Power": true,
+                // "FactorioExtended-Plus-Core": true,
+                // "FactorioExtended-Plus-Power": true,
                 // Debug mod
-                "debugadapter": true,
+                // "debugadapter": true,
                 // Editor Extensions is really great for testing
-                "flib": true,
-                "EditorExtensions": true,
+                // "flib": true,
+                // "EditorExtensions": true,
             },
             "disableExtraMods": true
         }
