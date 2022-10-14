@@ -1,13 +1,13 @@
 {
     "name": "Chunk-Aligned",
-    "version": "1.1.0",
+    "version": "1.1.69",
     "title": "Chunk Aligned",
     "author": "Adrien 'Larandar' DUDOUIT-EXPOSITO",
     "contact": "adrien@dudouit.me",
     "homepage": "https://mods.factorio.com/mod/Chunk-Aligned",
     "factorio_version": "1.1",
     "dependencies": [
-        "base >= 1.1.0",
+        "base >= 1.1.69",
         "? FactorioExtended-Plus-Power",
         "? FactorioExtended-Plus-Logitics",
         "? LightedPolesPlus",
