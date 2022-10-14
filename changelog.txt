@@ -5,6 +5,7 @@ Date: 2022-10-14
     - Added support for Krastorio2
   Changes:
     - Removed legacy setting (either don't update or migrate to "Bigger Mediums" setting)
+    - Changed setting for "Bigger Mediums" to be a checkbox
   Bugfixes:
     - Big power poles are now properly fast replaceable by Substations (was only working
       with FactorioExtended+)

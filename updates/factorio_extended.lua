@@ -33,15 +33,16 @@ local updates = {
     }, {
         type = "roboport",
         name = "roboport-mk2",
-        prototypes = {logistics_radius = 48, construction_radius = 96}
+        prototypes = { logistics_radius = 48, construction_radius = 96 }
     }, {
         type = "roboport",
         name = "roboport-mk3",
-        prototypes = {logistics_radius = 64, construction_radius = 128}
+        prototypes = { logistics_radius = 64, construction_radius = 128 }
     }
 }
 
-if settings.startup['chunk-aligned-strategy'].value == "Bigger Mediums" then
+-- Try to align medium power poles
+if settings.startup['chunk-aligned-align-medium-poles'].value == true then
     table.insert_each(updates, {
         {
             type = "electric-pole",

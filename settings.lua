@@ -1,11 +1,8 @@
 data:extend({
     {
-        type = "string-setting",
-        name = "chunk-aligned-strategy",
+        type = "bool-setting",
+        name = "chunk-aligned-align-medium-poles",
         setting_type = "startup",
-        default_value = "Only Substations and Bigs",
-        allowed_values = {
-            "Only Substations and Bigs", "Bigger Mediums"
-        }
+        default_value = false,
     }
 })
