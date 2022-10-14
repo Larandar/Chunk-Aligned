@@ -3,18 +3,24 @@ local updates = {
     {
         type = "electric-pole",
         name = "big-electric-pole-mk2",
-        prototypes = {maximum_wire_distance = 48}
+        prototypes = {
+            maximum_wire_distance = 48,
+            fast_replaceable_group = "electric-pole-2x2"
+        }
     }, {
         type = "electric-pole",
         name = "big-electric-pole-mk3",
-        prototypes = {maximum_wire_distance = 64}
+        prototypes = {
+            maximum_wire_distance = 64,
+            fast_replaceable_group = "electric-pole-2x2"
+        }
     }, {
         type = "electric-pole",
         name = "substation-mk2",
         prototypes = {
             maximum_wire_distance = 48,
             supply_area_distance = 24,
-            fast_replaceable_group = "big-electric-pole"
+            fast_replaceable_group = "electric-pole-2x2"
         }
     }, {
         type = "electric-pole",
@@ -22,7 +28,7 @@ local updates = {
         prototypes = {
             maximum_wire_distance = 64,
             supply_area_distance = 32,
-            fast_replaceable_group = "big-electric-pole"
+            fast_replaceable_group = "electric-pole-2x2"
         }
     }, {
         type = "roboport",
