@@ -9,9 +9,6 @@
             "request": "launch",
             "name": "Factorio Mod Debug",
 
-            // macOS Path
-            "factorioPath": "/Applications/factorio.app/Contents/MacOS/factorio",
-
             // Starting arguments
             "factorioArgs": [
                 // Laptop is not the best
@@ -26,24 +23,27 @@
                 "EditorExtensions/testing",
             ],
 
-            // Register the hook (why is this not the default?)
+            // Register the hook
             "hookData": true,
             "hookLog": true,
 
-            // Make sure we have a clean environment to test
-            "modsPath": "${workspaceFolder}/../instances/debug/mods",
+            // Mods for dev 💖
             "manageMod": true,
             "adjustMods": {
-                // Can't test it else
                 "Chunk-Aligned": true,
+
+                // Editor Extensions and debug tools
+                "debugadapter": true,
+                "flib": true,
+                "EditorExtensions": true,
+
                 // Factorio Extended
                 // "FactorioExtended-Plus-Core": true,
                 // "FactorioExtended-Plus-Power": true,
-                // Debug mod
-                // "debugadapter": true,
-                // Editor Extensions is really great for testing
-                // "flib": true,
-                // "EditorExtensions": true,
+
+                // Krastorio
+                // "Krastorio2": true,
+                // "Krastorio2Assets": true,
             },
             "disableExtraMods": true
         }

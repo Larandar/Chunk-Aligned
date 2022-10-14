@@ -1,0 +1,8 @@
+{
+    // Recommended extensions
+    "recommendations": [
+        "sumneko.lua",
+        "justarandomgeek.factoriomod-debug",
+        "svizzini.factorio-lua-api-autocomplete"
+    ]
+}

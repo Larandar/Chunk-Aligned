@@ -1,6 +1,8 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.69
 Date: 2022-10-14
+  Features:
+    - Added support for Krastorio2
   Changes:
     - Removed legacy setting (either don't update or migrate to "Bigger Mediums" setting)
   Bugfixes:

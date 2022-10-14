@@ -9,7 +9,8 @@
     "dependencies": [
         "base >= 1.1.0",
         "? FactorioExtended-Plus-Power",
-        "? LightedPolesPlus"
+        "? LightedPolesPlus",
+        "? Krastorio2"
     ],
     "description": "This mod make it easier to align stuffs to the chunk grid."
 }
