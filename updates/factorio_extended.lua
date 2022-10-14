@@ -4,7 +4,7 @@ local updates = {
         type = "electric-pole",
         name = "big-electric-pole-mk2",
         prototypes = {
-            maximum_wire_distance = 48,
+            maximum_wire_distance = 48.25,
             fast_replaceable_group = "electric-pole-2x2"
         }
     }, {
@@ -18,7 +18,7 @@ local updates = {
         type = "electric-pole",
         name = "substation-mk2",
         prototypes = {
-            maximum_wire_distance = 48,
+            maximum_wire_distance = 48.25,
             supply_area_distance = 24,
             fast_replaceable_group = "electric-pole-2x2"
         }
@@ -48,14 +48,14 @@ if settings.startup['chunk-aligned-align-medium-poles'].value == true then
             type = "electric-pole",
             name = "medium-electric-pole-mk2",
             prototypes = {
-                maximum_wire_distance = 12,
+                maximum_wire_distance = 16.25,
                 supply_area_distance = 5.5
             }
         }, {
             type = "electric-pole",
             name = "medium-electric-pole-mk3",
             prototypes = {
-                maximum_wire_distance = 16,
+                maximum_wire_distance = 16.25,
                 supply_area_distance = 7.5
             }
         }

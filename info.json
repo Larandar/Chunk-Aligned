@@ -9,6 +9,7 @@
     "dependencies": [
         "base >= 1.1.0",
         "? FactorioExtended-Plus-Power",
+        "? FactorioExtended-Plus-Logitics",
         "? LightedPolesPlus",
         "? Krastorio2"
     ],

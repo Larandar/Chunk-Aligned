@@ -3,9 +3,11 @@ Version: 1.1.69
 Date: 2022-10-14
   Features:
     - Added support for Krastorio2
+    - Now with documentated changes 💫💖
   Changes:
     - Removed legacy setting (either don't update or migrate to "Bigger Mediums" setting)
     - Changed setting for "Bigger Mediums" to be a checkbox
+    - Tweakeds values (only in positive ways) with inspirations from Krastorio
   Bugfixes:
     - Big power poles are now properly fast replaceable by Substations (was only working
       with FactorioExtended+)

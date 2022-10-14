@@ -1,11 +1,15 @@
 -- Update one prototype only if available
 local function update_data(type, name, prototypes)
-    if (data.raw[type] == nil) then return end
-    if (data.raw[type][name] == nil) then return end
+    if (data.raw[type] == nil) then return false end
+    if (data.raw[type][name] == nil) then return false end
+
+    log(string.format("[Chunk-Aligned] Updating %s.%s", type, name))
     for k, v in pairs(prototypes) do
-        log(string.format("[Chunk-Aligned] Updated %s.%s.%s:  %s -> %s", type, name, k, data.raw[type][name][k], v))
+        log(string.format("[Chunk-Aligned]     - '%s':  %s -> %s", k, data.raw[type][name][k], v))
         data.raw[type][name][k] = v
     end
+
+    return true
 end
 
 -- Update multiple prototypes
