@@ -5,7 +5,7 @@ data:extend({
         setting_type = "startup",
         default_value = "Only Substations and Bigs",
         allowed_values = {
-            "Only Substations and Bigs", "Bigger Mediums", "[DEPRECATED] Legacy"
+            "Only Substations and Bigs", "Bigger Mediums"
         }
     }
 })
