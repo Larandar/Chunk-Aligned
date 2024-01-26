@@ -38,17 +38,17 @@ NOTES:
 
 |    Mod    |             Type             | Logistic Radius | Construction Radius |
 | --------- | ---------------------------- | --------------- | ------------------- |
-| Vanilla   | Roboport                     | 25 -> 32        | 55 -> 64            |
-| Extended+ | Roboport MK2                 | 37.5 -> 48      | 75 -> 96            |
-| Extended+ | Roboport MK3                 | 50 -> 64        | 100 -> 128          |
-| Krastorio | Small Roboport               | 18 -> 16        | 34 -> 32            |
+| Vanilla   | Roboport                     | 25 -> 32        | 55 -> 69            |
+| Extended+ | Roboport MK2                 | 37.5 -> 48      | 75 -> 101           |
+| Extended+ | Roboport MK3                 | 50 -> 64        | 100 -> 133          |
+| Krastorio | Small Roboport               | 18 -> 16        | 34 -> 37            |
 | Krastorio | Small Roboport (Logis. mode) | 22.95 -> 24     |                     |
-| Krastorio | Small Roboport (Const. mode) |                 | 31.875 -> 48        |
+| Krastorio | Small Roboport (Const. mode) |                 | 31.875 -> 53        |
 | Krastorio | Roboport (Logis. mode)       | 31.875 -> 48    |                     |
-| Krastorio | Roboport (Const. mode)       |                 | 68.75 -> 96         |
-| Krastorio | Large Roboport               | 100 -> 96       | 200 -> 192          |
+| Krastorio | Roboport (Const. mode)       |                 | 68.75 -> 101        |
+| Krastorio | Large Roboport               | 100 -> 96       | 200 -> 197          |
 | Krastorio | Large Roboport (Logis. mode) | 127.5 -> 128    |                     |
-| Krastorio | Large Roboport (Const. mode) |                 | 250 -> 256          |
+| Krastorio | Large Roboport (Const. mode) |                 | 250 -> 261          |
 
 ## License
 

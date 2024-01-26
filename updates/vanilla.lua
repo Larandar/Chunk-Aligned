@@ -18,7 +18,7 @@ local updates = {
     }, {
         type = "roboport",
         name = "roboport",
-        prototypes = { logistics_radius = 32, construction_radius = 64 }
+        prototypes = { logistics_radius = 32, construction_radius = 69 }
     }
 }
 

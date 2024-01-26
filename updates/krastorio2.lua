@@ -12,7 +12,7 @@ local updates = {
     {
         type = "roboport",
         name = "kr-small-roboport",
-        prototypes = { logistics_radius = 16, construction_radius = 32 }
+        prototypes = { logistics_radius = 16, construction_radius = 37 }
     },
     {
         type = "roboport",
@@ -22,7 +22,7 @@ local updates = {
     {
         type = "roboport",
         name = "kr-small-roboport-construction-mode",
-        prototypes = { logistics_radius = 0, construction_radius = 48 }
+        prototypes = { logistics_radius = 0, construction_radius = 53 }
     },
     {
         type = "roboport",
@@ -32,12 +32,12 @@ local updates = {
     {
         type = "roboport",
         name = "roboport-construction-mode",
-        prototypes = { logistics_radius = 0, construction_radius = 96 }
+        prototypes = { logistics_radius = 0, construction_radius = 101 }
     },
     {
         type = "roboport",
         name = "kr-large-roboport",
-        prototypes = { logistics_radius = 96, construction_radius = 192 }
+        prototypes = { logistics_radius = 96, construction_radius = 197 }
     },
     {
         type = "roboport",
@@ -47,7 +47,7 @@ local updates = {
     {
         type = "roboport",
         name = "kr-large-roboport-construction-mode",
-        prototypes = { logistics_radius = 0, construction_radius = 256 }
+        prototypes = { logistics_radius = 0, construction_radius = 261 }
     },
 }
 
