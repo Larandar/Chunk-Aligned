@@ -33,11 +33,11 @@ local updates = {
     }, {
         type = "roboport",
         name = "roboport-mk2",
-        prototypes = { logistics_radius = 48, construction_radius = 96 }
+        prototypes = { logistics_radius = 48, construction_radius = 101 }
     }, {
         type = "roboport",
         name = "roboport-mk3",
-        prototypes = { logistics_radius = 64, construction_radius = 128 }
+        prototypes = { logistics_radius = 64, construction_radius = 133 }
     }
 }
 
